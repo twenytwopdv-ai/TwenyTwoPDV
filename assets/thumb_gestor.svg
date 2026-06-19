@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="880" viewBox="0 0 220 440">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#fbfffb" />
+    </linearGradient>
+    <style>
+      .small { font: 700 8px/1 'Segoe UI', Roboto, Arial; fill: #1b3b33 }
+      .muted { font: 600 7px/1 'Segoe UI', Roboto, Arial; fill: #7b8c87 }
+      .title { font: 800 10px/1 'Segoe UI', Roboto, Arial; fill: #053826 }
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" rx="12" fill="url(#bg)" />
+
+  <!-- barra lateral -->
+  <rect x="8" y="24" width="44" height="392" rx="12" fill="#ffffff" stroke="#eaf6f0" />
+  <!-- itens da barra lateral -->
+  <g transform="translate(16,40)">
+    <rect x="0" y="0" width="32" height="32" rx="8" fill="#e9f8f0" />
+    <rect x="0" y="52" width="32" height="32" rx="8" fill="#fff" />
+    <rect x="0" y="104" width="32" height="32" rx="8" fill="#fff" />
+    <rect x="0" y="156" width="32" height="32" rx="8" fill="#fff" />
+    <rect x="0" y="208" width="32" height="32" rx="8" fill="#fff" />
+    <rect x="0" y="260" width="32" height="32" rx="8" fill="#fff" />
+    <rect x="0" y="312" width="32" height="32" rx="8" fill="#fff" />
+    <rect x="0" y="364" width="32" height="32" rx="8" fill="#fff" />
+  </g>
+
+  <!-- cartão principal -->
+  <rect x="64" y="20" width="140" height="320" rx="14" fill="#ffffff" stroke="#eef7f2" />
+  <text x="76" y="40" class="title">Página Inicial</text>
+  <text x="76" y="52" class="muted">Acesse os principais módulos do sistema</text>
+
+  <!-- grid de ícones -->
+  <g transform="translate(76,74)" fill="#0b6f55">
+    <!-- linha 1 -->
+    <g>
+      <rect x="0" y="0" width="36" height="28" rx="4" fill="#eaf8f0" />
+      <text x="46" y="18" class="small">Entrada de Mercadorias</text>
+    </g>
+    <g transform="translate(0,40)">
+      <rect x="0" y="0" width="36" height="28" rx="4" fill="#eaf8f0" />
+      <text x="46" y="18" class="small">Cadastro de Produtos</text>
+    </g>
+    <g transform="translate(0,80)">
+      <rect x="0" y="0" width="36" height="28" rx="4" fill="#eaf8f0" />
+      <text x="46" y="18" class="small">Estoque de Produtos</text>
+    </g>
+  </g>
+
+  <g transform="translate(76,200)" fill="#0b6f55">
+    <g>
+      <rect x="0" y="0" width="36" height="28" rx="4" fill="#eaf8f0" />
+      <text x="46" y="18" class="small">Entradas</text>
+    </g>
+    <g transform="translate(0,40)">
+      <rect x="0" y="0" width="36" height="28" rx="4" fill="#eaf8f0" />
+      <text x="46" y="18" class="small">Vendas</text>
+    </g>
+    <g transform="translate(0,80)">
+      <rect x="0" y="0" width="36" height="28" rx="4" fill="#eaf8f0" />
+      <text x="46" y="18" class="small">Relatórios</text>
+    </g>
+  </g>
+
+  <!-- rodapé pequeno com data/hora -->
+  <rect x="158" y="334" width="44" height="44" rx="8" fill="#ffffff" stroke="#eef7f2" />
+  <text x="166" y="352" class="small" fill="#0b6f55">17</text>
+  <text x="166" y="364" class="muted">02:31:29</text>
+
+</svg>

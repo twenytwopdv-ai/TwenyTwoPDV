@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Recursos — Gestor</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo-link" href="../index.html">
+        <img src="../assets/logo.svg" alt="TWENY TWO PDV — logo" class="logo" />
+      </a>
+      <nav class="nav">
+        <a href="index.html">Início</a>
+        <a href="caixa.html">Caixa</a>
+        <a href="../contato.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="features">
+      <div class="container">
+        <h1>App Gestor</h1>
+        <p class="lead">Aplicação desktop (Electron) para administração completa do negócio: produtos, estoque, formação de preço e relatórios.</p>
+
+        <h2>Principais funcionalidades</h2>
+        <ul>
+          <li>Dashboard com métricas (total de produtos, valor do estoque, produtos com estoque baixo, novos produtos do mês).</li>
+          <li>Cadastro completo de produtos com validações e histórico.</li>
+          <li>Formação de preço automática considerando impostos e margens.</li>
+          <li>Gestão de fornecedores e controle de entradas/saídas de estoque.</li>
+          <li>Relatórios detalhados e geração de gráficos.</li>
+          <li>Configuração e migração do banco PostgreSQL (scripts incluídos para criação de esquema).</li>
+        </ul>
+
+        <h2>Instalação rápida (desenvolvimento)</h2>
+        <ol>
+          <li>Abra a pasta <code>Sistema_app</code> no seu terminal.</li>
+          <li>Instale dependências: <code>npm install</code></li>
+          <li>Configure o banco em <code>db_config.json</code> e execute <code>node run_db_schema.js</code> para criar tabelas.</li>
+          <li>Execute: <code>npm start</code></li>
+        </ol>
+
+        <p>Consulte o <code>README.md</code> na pasta <strong>Sistema_app</strong> para detalhes técnicos, testes e recomendações de integração com o app Caixa.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 TWENY TWO PDV</p>
+    </div>
+  </footer>
+</body>
+</html>

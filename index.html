@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TWENY TWO PDV — Automação em Vendas</title>
+  <meta name="description" content="TWENY TWO PDV — Caixa e Gestor. Solução completa para automação em vendas." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo-link" href="#">
+        <img src="assets/logo.svg" alt="TWENY TWO PDV — logo" class="logo" />
+      </a>
+      <nav class="nav">
+        <a href="recursos/index.html">Recursos</a>
+        <a href="#planos">Planos</a>
+        <a href="contato.html">Contato</a>
+        <a class="btn btn-ghost" href="#demo">Demonstração</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <span class="kicker">AUTOMAÇÃO EM VENDAS</span>
+          <h1>PDV + GESTOR — Dois apps, uma solução</h1>
+          <p class="lead">Sistema completo: o app <strong>Caixa</strong> para vendas rápidas e o <strong>Gestor</strong> para controle, estoque e relatórios. Velocidade, segurança e escalabilidade para sua loja.</p>
+
+          <div class="actions">
+            <button id="toggle-caixa" class="btn btn-primary" aria-expanded="false">Conhecer o App</button>
+          </div>
+
+          <ul class="badges">
+            <li><strong>Rápido</strong> para vendas</li>
+            <li><strong>Seguro</strong> e confiável</li>
+            <li><strong>Relatórios</strong> em tempo real</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="device device-left">
+            <div class="screen">
+              <ul class="line-list">
+                <li>Venda Rápida</li>
+                <li>Formas de Pagamento</li>
+                <li>Fechar Caixa</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="device device-right">
+            <div class="screen">
+              <div class="chart"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="caixa-details" class="details" hidden>
+      <div class="container detail-inner">
+        <div class="detail-content">
+          <div class="detail-block">
+            <h2>App Caixa — Visão detalhada</h2>
+            <p>O app Caixa é otimizado para velocidade no atendimento: busca instantânea, filtro por seção, sugestão de best-match e fechamento de venda simplificado. Ele suporta integração com gateways de pagamento e geração de relatórios rápidos.</p>
+
+            <h3>Funcionalidades resumidas</h3>
+            <ul>
+              <li>Busca rápida com destaque de melhores resultados</li>
+              <li>Filtro por seção e modo de exibição por categorias</li>
+              <li>Checkout com múltiplas formas de pagamento</li>
+              <li>Fechamento de caixa e histórico de vendas</li>
+            </ul>
+          </div>
+
+          <div class="detail-block">
+            <h2>App Gestor — Visão detalhada</h2>
+            <p>O Gestor oferece controle administrativo completo: cadastro de produtos, formação de preço, controle de estoque, relatórios e dashboards para tomada de decisão.</p>
+
+            <h3>Funcionalidades resumidas</h3>
+            <ul>
+              <li>Dashboard com métricas e navegação para telas detalhadas</li>
+              <li>Cadastro e edição de produtos com histórico</li>
+              <li>Formação de preço com cálculos automáticos</li>
+              <li>Relatórios detalhados e exportáveis</li>
+              <li>Integração com PostgreSQL</li>
+            </ul>
+          </div>
+        </div>
+
+        <aside class="detail-thumb">
+          <div class="thumb card-thumb">
+            <img src="assets/caixa.png" alt="Miniatura Caixa" />
+            <p class="thumb-label">Tela principal do Caixa</p>
+          </div>
+
+          <div class="thumb card-thumb">
+            <img src="assets/gestor.png" alt="Miniatura Gestor" />
+            <p class="thumb-label">Menu do Gestor</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="recursos" class="features">
+      <div class="container">
+        <h2>Dois aplicativos, uma experiência integrada</h2>
+        <div class="grid">
+          <article class="card">
+            <svg class="icon" width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="2" y="6" width="20" height="12" rx="2" stroke="var(--text)" stroke-width="1.2" />
+              <rect x="4" y="8" width="6" height="6" fill="var(--green)" />
+              <path d="M8 3h8v3" stroke="var(--text)" stroke-linecap="round" stroke-width="1.2" />
+            </svg>
+            <h3>Caixa</h3>
+            <p>App rápido e intuitivo para atender vendas, registrar pagamentos e fechar o caixa do dia.</p>
+            <ul>
+              <li>Checkout simplificado</li>
+              <li>Leitura de códigos</li>
+              <li>Suporta várias formas de pagamento</li>
+            </ul>
+            <a class="link" href="recursos/caixa.html">Saiba mais →</a>
+          </article>
+
+          <article class="card">
+            <svg class="icon" width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="2" stroke="var(--text)" stroke-width="1.2" />
+              <rect x="6" y="12" width="2" height="6" fill="var(--purple)" />
+              <rect x="10" y="8" width="2" height="10" fill="var(--green)" />
+              <rect x="14" y="6" width="2" height="12" fill="var(--yellow)" />
+            </svg>
+            <h3>Gestor</h3>
+            <p>Controle total do negócio: estoque, fornecedores, relatórios e permissões de usuários.</p>
+            <ul>
+              <li>Relatórios inteligentes</li>
+              <li>Gestão de produtos e estoque</li>
+              <li>Permissões e usuários</li>
+            </ul>
+            <a class="link" href="recursos/gestor.html">Saiba mais →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-inner">
+        <h2>Pronto para transformar suas vendas?</h2>
+        <p>Teste grátis, integração rápida e suporte dedicado para adaptar a solução ao seu ponto de venda.</p>
+        <a class="btn btn-cta" href="#contato">Solicitar demonstração</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 TWENY TWO PDV — Todos os direitos reservados</p>
+    </div>
+  </footer>
+  
+  <!-- Modal de Solicitação de Demonstração (inserido no fim do body) -->
+  <div id="demo-modal" class="modal-overlay" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="demo-title">
+      <button class="modal-close" id="demo-close">✕</button>
+      <h3 id="demo-title">Solicitar demonstração</h3>
+      <p>Preencha os dados abaixo e entraremos em contato para agendar uma demonstração personalizada.</p>
+
+      <form id="demo-form" class="modal-form">
+        <input name="nome" placeholder="Nome completo" required />
+        <input name="telefone" placeholder="Telefone / WhatsApp" required />
+        <input name="empresa" placeholder="Empresa (opcional)" />
+        <textarea name="observacoes" rows="4" placeholder="Observações / Preferências de horário"></textarea>
+        <div class="modal-actions">
+          <button type="button" class="btn btn-ghost" id="demo-cancel">Cancelar</button>
+          <button type="submit" class="btn btn-primary">Enviar solicitação</button>
+        </div>
+        <div id="demo-feedback" class="modal-feedback" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+  <script>
+    (function(){
+      const btn = document.getElementById('toggle-caixa');
+      const details = document.getElementById('caixa-details');
+      if(!btn || !details) return;
+      btn.addEventListener('click', ()=>{
+        const expanded = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', String(!expanded));
+        if(expanded){
+          details.hidden = true;
+          details.style.display = 'none';
+          btn.textContent = 'Conhecer o Caixa';
+          details.scrollIntoView({behavior:'smooth',block:'start'});
+        } else {
+          details.hidden = false;
+          details.style.display = 'block';
+          btn.textContent = 'Fechar detalhes';
+          details.scrollIntoView({behavior:'smooth',block:'start'});
+        }
+      });
+    })();
+    
+    // Modal demo
+    (function(){
+      const openDemo = document.querySelectorAll('.btn-cta, .btn-ghost[href="#contato"], .btn-ghost[href="#demo"]');
+      const modal = document.getElementById('demo-modal');
+      const closeBtn = document.getElementById('demo-close');
+      const cancelBtn = document.getElementById('demo-cancel');
+      function openDemoModal(){ if(modal){ modal.hidden = false; modal.focus(); } }
+      window.closeDemoModal = function(){ if(modal){ modal.hidden = true; } };
+      openDemo.forEach(el=> el && el.addEventListener('click', (e)=>{ e.preventDefault(); openDemoModal(); }));
+      if(closeBtn) closeBtn.addEventListener('click', ()=> closeDemoModal());
+      if(cancelBtn) cancelBtn.addEventListener('click', ()=> closeDemoModal());
+      // fechar ao clicar fora
+      if(modal) modal.addEventListener('click', (ev)=>{ if(ev.target === modal) closeDemoModal(); });
+    })();
+
+    // Form submit handler via FormSubmit.co (AJAX)
+    (function(){
+      const form = document.getElementById('demo-form');
+      if(!form) return;
+      const submitBtn = form.querySelector('button[type="submit"]');
+      form.addEventListener('submit', async function(e){
+        e.preventDefault();
+        if(submitBtn){ submitBtn.disabled = true; submitBtn.textContent = 'Enviando...'; }
+        const fd = new FormData(form);
+        const data = Object.fromEntries(fd.entries());
+        data['_subject'] = 'Solicitação de Demonstração — TWENY TWO PDV';
+        try{
+          const res = await fetch('https://formsubmit.co/ajax/twenytwopdv@gmail.com', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+            body: JSON.stringify(data)
+          });
+          const json = await res.json();
+          const fb = document.getElementById('demo-feedback');
+          if(res.ok){
+            fb.className = 'modal-feedback success';
+            fb.textContent = 'Solicitação enviada — entraremos em contato em breve.';
+            fb.style.display = 'block';
+            form.reset();
+            setTimeout(()=>{ if(typeof closeDemoModal === 'function') closeDemoModal(); fb.style.display='none'; }, 1500);
+          } else {
+            throw new Error(json.message || 'Erro no envio');
+          }
+        }catch(err){
+          console.error(err);
+          const fb = document.getElementById('demo-feedback');
+          fb.className = 'modal-feedback error';
+          fb.textContent = 'Erro ao enviar. Por favor envie um email para twenytwopdv@gmail.com.';
+          fb.style.display = 'block';
+        }finally{
+          if(submitBtn){ submitBtn.disabled = false; submitBtn.textContent = 'Enviar solicitação'; }
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
